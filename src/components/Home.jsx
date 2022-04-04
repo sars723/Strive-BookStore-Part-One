@@ -48,7 +48,7 @@ class Home extends Component {
         </Row> */}
         <h2 className="my-3">Romance</h2>
         <BookCards bookCategory={romanceBooks} search={this.state.search} />
-        {/*  <Row>
+       {/*  <Row>
           {romanceBooks
             .filter((book, i) => i < 8)
             .map((book) => (
@@ -87,7 +87,7 @@ class Home extends Component {
             ))}
         </Row> */}
         <h2 className="my-3">Scifi</h2>
-        <BookCards bookCategory={scifiBooks} search={this.state.search} />
+        <BookCards bookCategory={sc} search={this.state.search} />
         {/* <Row>
           {scifiBooks
             .filter((book, i) => i < 8)
